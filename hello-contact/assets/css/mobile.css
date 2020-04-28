@@ -1,0 +1,44 @@
+@media (max-width: 965px) {
+  .title {
+    width: 329px;
+    margin-bottom: 50px;
+  }
+  .nav nav {
+    padding-right: 18px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  #main-header nav ul li {
+    margin: 0 10px;
+  }
+  .content {
+    padding: 0 53px;
+  }
+  .title {
+    margin-bottom: 20px;
+  }
+  .title h1 {
+    font-size: 1.4rem;
+  }
+  .title h2 {
+    font-size: 1.2rem;
+  }
+  .menu ul li a {
+    font-size: 13px;
+  }
+  .nav li:nth-child(1) {
+    font-size: 14px;
+  }
+  .nav li:nth-child(2),
+  .nav li:nth-child(3) {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .content {
+    padding: 0 43px;
+  }
+}
