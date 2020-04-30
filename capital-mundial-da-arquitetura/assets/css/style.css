@@ -1,35 +1,37 @@
 body {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
-.card {
-  padding: 0.6rem;
-  border: none;
-  border-radius: none;
-}
-.pantone {
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 1.3rem;
-  margin: 0;
-}
-.pantone-color {
-  margin: 0;
-  font-size: 1.3rem;
-}
-.pantone span {
-  vertical-align: super;
-  font-size: 0.7rem;
-}
-header {
-  color: #000;
-}
-h1 {
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  font-weight: 700;
+a, a:hover {
+  text-decoration: none;
+  color: #fff;
 }
 h2 {
-  font-size: 2rem;
-  font-family: 'Quicksand', sans-serif;
+  font-size: 3rem;
+  font-family: 'Goudy Bookletter 1911', serif;
+}
+header {
+  background-color: #1d1d1d;
+  color: #fff;
+}
+header p {
+  font-size: 13px;
+  color: #b3b3b3;
+  margin: auto;
+  display: flex;
+  line-height: 1.6;
+}
+.photo-gallery .photos {
+  padding-bottom:20px;
+}
+.photo-gallery .item {
+  padding-bottom:30px;
+}
+footer {
+  background: #1d1d1d;
+  color: #b3b3b3;
+  font-size: 12px;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  padding: 0.5rem;
 }

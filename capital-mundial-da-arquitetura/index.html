@@ -5,49 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Capital Mundial da Arquitetura</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Open+Sans&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/lightbox.min.css">
 </head>
 <body>
-  <header class="py-5 mb-4">
+  <header class="py-4 mb-4">
     <div class="container">
-      <h1 class="">Rio de Janeiro</h1>
-      <h2 class="">Capital Mundial da Arquitetura</h2>
+      <div class="row">
+        <div class="col-12 col-md-6 py-3">
+          <h2 class="">Capital Mundial da <span>Arquitetura</span></h2>
+        </div>
+        <div class="col-12 col-md-6 d-flex py-3">
+          <p>O Rio de Janeiro é a primeira Capital Mundial da Arquitetura, título inédito conquistado pela Prefeitura do Rio e pelo Instituto de Arquitetos do Brasil (IAB) e concedido pela Organização das Nações Unidas para a Educação, Ciência e Cultura (Unesco) e pela União Internacional de Arquitetos (UIA).</p>
+        </div>
+      </div>
     </div>
   </header>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-4 mb-4">
-        <div class="card border-0 shadow">
-          <img src="assets/img/central.png" class="img-fluid" title="Central do Brasil">
-          <div class="card-body">
-            <p class="pantone">Pantone<span>®</span></p>
-            <p class="pantone-color">2065 C</p>
-          </div>
+  <div class="photo-gallery">
+    <div class="container">
+        <div class="row photos">
+            <div class="col-12 col-md-4 item"><a href="assets/img/central.png" data-lightbox="photos"><img class="img-fluid" src="assets/img/central.png"></a></div>
+            <div class="col-12 col-md-4 item"><a href="assets/img/petrobras.png" data-lightbox="photos"><img class="img-fluid" src="assets/img/petrobras.png"></a></div>
+            <div class="col-12 col-md-4 item"><a href="assets/img/teleporto.png" data-lightbox="photos"><img class="img-fluid" src="assets/img/teleporto.png"></a></div>
         </div>
-      </div>
-      <div class="col-12 col-md-4 mb-4">
-        <div class="card border-0 shadow">
-          <img src="assets/img/petrobras.png" class="img-fluid" title="Sede Petrobrás">
-          <div class="card-body">
-            <p class="pantone">Pantone<span>®</span></p>
-            <p class="pantone-color">7670 C</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-4 mb-4">
-        <div class="card border-0 shadow">
-          <img src="assets/img/teleporto.png" class="img-fluid" title="Teleporto">
-          <div class="card-body">
-            <p class="pantone">Pantone<span>®</span></p>
-            <p class="pantone-color">1355 C</p>
-          </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <span><a href="https://michellerclopes.github.io">Made with ❤ in Rio</a></span>
         </div>
       </div>
     </div>
-  </div>
+  </footer>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/lightbox.min.js"></script> 
 </body>
 </html>
