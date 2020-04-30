@@ -26,6 +26,9 @@ header p {
 .photo-gallery .item {
   padding-bottom:30px;
 }
+.img-fluid {
+  border: 3px solid #000;
+}
 footer {
   background: #1d1d1d;
   color: #b3b3b3;
