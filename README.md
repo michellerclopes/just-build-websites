@@ -12,4 +12,6 @@ Página criada para exibir as ilustrações que estou fazendo em homenagem à no
 
 Página de contato animada que possui links de redes sociais. [Live Demo](https://michellerclopes.github.io/just-build-websites/animated-contact/) 🚀
 
+Feito com [Animate](https://daneden.github.io/animate.css/) e  [Typer.js](https://steven.codes/typerjs/)
+
 ![Printscreen](https://github.com/michellerclopes/just-build-websites/blob/master/img/animated-contact.jpg)
